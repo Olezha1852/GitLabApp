@@ -13,7 +13,7 @@ namespace GitLabApp
             Console.Write("Введите значение параметра x: ");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
-            double F = 2 * Math.Cos(x);
+            double F = 5 * Math.Cos(x * 2);
             Console.WriteLine($"Значение F = {F}. ");
             Console.ReadKey();
         }
